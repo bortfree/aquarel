@@ -40,7 +40,7 @@ body textarea:focus:required:invalid
 	color: red
 body input:required:valid,
 body textarea:required:valid
-	color: green
+	color: #006188
 
 h1
 	color: #0699d3
@@ -108,3 +108,317 @@ h1
 		margin: 7px 0
 		font-family: "firasanslight", sans-serif
 		font-size: 12px
+
+.main_head
+	position: relative
+
+.head_descr
+	margin-top: 64px
+	display: inline-block
+	h1
+		margin-bottom: 0
+		line-height: 72px
+	ul
+		list-style-type: none
+		margin: 0
+		margin-left: 5px
+		li
+			font-size: 24px
+			position: relative
+			line-height: 36px
+			&::before
+				content: ''
+				position: absolute
+				width: 15px
+				height: 21px
+				background-image: url(../img/list_style.png)
+				top: 7px
+				left: -28px
+	.button
+		margin-top: 35px
+		margin-left: 10px
+		display: inline-block
+
+.button
+	text-shadow: 1px 1.7px 2px rgba(118, 84, 2, 0.75)
+	color: #fffbe6
+	font-family: "firasansbold", sans-serif
+	font-size: 18px
+	text-transform: uppercase
+	background-color: #daf6ff
+	background-image: linear-gradient(to top, #f5a322 0%, gold 100%)
+	border: 1px solid #f39f1a
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 0 0 rgba(255, 255, 255, 0.2)
+	border-radius: 10em
+	padding: 9px 48px
+	transition: all .3s ease
+	&:hover, &:focus, &:active
+		color: #fffbe6
+		text-decoration: none
+		background-image: linear-gradient(to top, #ff9c00 0%, #e9c403 100%)
+
+.img_girl
+	position: absolute
+	right: 0
+	bottom: -127px
+
+.title_wrap
+	text-align: center
+	h2
+		font-size: 36px
+		font-family: "firasansbold", sans-serif
+		font-weight: normal
+
+.title_color
+	color: #fff
+	background-image: url(../img/bg_water.jpg)
+	background-position: center
+	background-size: cover
+	min-height: 114px
+	h2
+		margin: 0
+		line-height: 114px
+
+.title_slide
+	h2
+		position: relative
+		display: inline-block
+		padding-bottom: 5px
+		margin-bottom: 5px
+		&::before
+			content: ''
+			position: absolute
+			width: 100%
+			height: 8px
+			background-image: url(../img/line_top.png)
+			background-repeat: repeat-x
+			bottom: 0
+			left: 0
+	p
+		font-size: 18px
+		margin: 0
+		margin-bottom: 25px
+
+.clearpad
+	padding: 0
+
+.my_work
+	background-color: #dcf5ff
+	.col-color
+		background-image: url(../img/bg_uzor.jpg)
+		.img_wrap_right
+			display: inline-block
+			position: relative
+			left: -60px
+		.img_wrap_left
+			display: inline-block
+			position: relative
+			right: -132px
+			float: right
+	.left
+		float: right
+		max-width: 320px
+		margin-right: 142px
+		margin-top: 35px
+	.right
+		float: left
+		margin-top: 35px
+		max-width: 450px
+		margin-left: 200px
+	.wrap_descr_sect1
+		span
+			font-family: "firasansbold", sans-serif
+			font-size: 30px
+		h3
+			font-size: 18px
+			text-transform: uppercase
+			font-family: "firasansbold", sans-serif
+			font-weight: normal
+			position: relative
+			display: inline-block
+			padding-bottom: 15px
+			margin-bottom: 0
+			&::after
+				content: ''
+				position: absolute
+				width: 100%
+				height: 8px
+				background-image: url(../img/line_top.png)
+				background-repeat: repeat-x
+				bottom: 0
+				left: 0
+		p
+			padding-left: 28px
+
+.my_partner
+	text-align: center
+	position: relative
+	.title_color
+		background-image: url(../img/bg_water_sect2.jpg)
+		min-height: 197px
+		padding-top: 20px
+		h2
+			margin-bottom: 0
+			line-height: 85px
+		p
+			max-width: 610px
+			text-align: center
+			display: inline-block
+			font-size: 18px
+			line-height: 22px
+			margin: 0
+			position: relative
+			&::before
+				content: ''
+				position: absolute
+				width: 100%
+				height: 8px
+				background-image: url(../img/line_top_white.png)
+				background-repeat: repeat-x
+				top: -18px
+				left: 0
+	.logo_partner
+		img
+			margin: 40px 57px 30px
+	.descr_partner
+		display: inline-block
+		position: relative
+		margin-bottom: 10px
+		&::before, &::after
+			content: ''
+			width: 100%
+			height: 8px
+			background-image: url(../img/line_top.png)
+			background-repeat: repeat-x
+			position: absolute
+			left: 0
+		&::before
+			top: 0
+		&::after
+			bottom: 0
+		p
+			font-size: 30px
+			margin: 15px 0
+			line-height: 38px
+			span
+				font-size: 24px
+				display: block
+
+.line_fluid_sect2
+	height: 196px
+	width: 100%
+	background-image: url(../img/bg_uzor.jpg)
+	position: absolute
+	bottom: 33px
+	z-index: 1
+
+
+.form
+	display: inline-block
+	width: 400px
+	position: relative
+	z-index: 5
+	h4
+		font-size: 18px
+		font-family: "firasansbold", sans-serif
+		font-weight: normal
+		margin-bottom: 20px
+	.input_wrap
+		width: 100%
+		height: 266px
+		padding: 30px 57px
+		input, button
+			display: block
+			width: 100%
+		input
+			background-color: #effbff
+			border: 3px solid #006fb9
+			border-radius: 10em
+			padding: 12px 25px
+			font-family: "firasansitalic", sans-serif
+			margin-bottom: 20px
+
+.form_tel
+	.input_wrap
+		background-image: url(../img/bg_form_tel.png)
+		background-size: cover
+		position: relative
+		border-radius: 15px
+		background-color: #82d6f7
+		box-shadow: 0 1px 10px rgba(9, 76, 99, 0.35)
+		&::before
+			content: ''
+			position: absolute
+			width: 92px
+			height: 93px
+			background-image: url(../img/ic_phone.png)
+			top: -59px
+			left: -15px
+
+.form_mail
+	.input_wrap
+		background-image: url(../img/bg_form_mail.png)
+		background-size: cover
+		position: relative
+		border-radius: 15px
+		background-color: #82d6f7
+		box-shadow: 0 1px 10px rgba(9, 76, 99, 0.35)
+		&::before
+			content: ''
+			position: absolute
+			width: 92px
+			height: 93px
+			background-image: url(../img/ic_mail.png)
+			top: -59px
+			left: -15px
+
+.slide_s
+	padding-top: 15px
+	text-align: center
+	.title_img
+		display: inline-block
+		width: 166px
+		height: 59px
+		border: 3px solid #006fb9
+		border-radius: 18px
+		padding: 0 10px
+		line-height: 59px
+		margin-bottom: 45px
+		img
+			width: 100%
+			height: auto
+	.slider
+		.slide
+			display: inline-block
+		p
+			color: #333
+			margin: 0
+		.price
+			font-size: 24px
+			font-family: "firasansbold", sans-serif
+			color: #006188
+			span
+				font-family: "rouble", sans-serif
+
+.owl-carousel
+	position: relative
+	.owl-controls
+		.owl-nav
+			.owl-prev, .owl-next
+				width: 60px
+				height: 60px
+				background-color: #4fcaf4
+				opacity: .3
+				transition: all .3s ease
+				line-height: 60px
+				position: absolute
+				top: 150px
+				.fa
+					color: #fff
+					font-size: 18px
+				&:hover
+					opacity: .7
+			.owl-prev
+				left: -80px
+			.owl-next
+				right: -80px
