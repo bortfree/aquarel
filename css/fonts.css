@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "firasansbold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/firasansbold/firasansbold.eot?#iefix") format("embedded-opentype"), url("../fonts/firasansbold/firasansbold.woff") format("woff"), url("../fonts/firasansbold/firasansbold.ttf") format("truetype"); }
+@font-face {
+  font-family: "firasansitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/firasansitalic/firasansitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/firasansitalic/firasansitalic.woff") format("woff"), url("../fonts/firasansitalic/firasansitalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "firasanslight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/firasanslight/firasanslight.eot?#iefix") format("embedded-opentype"), url("../fonts/firasanslight/firasanslight.woff") format("woff"), url("../fonts/firasanslight/firasanslight.ttf") format("truetype"); }
+@font-face {
+  font-family: "firasanslightitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/firasanslightitalic/firasanslightitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/firasanslightitalic/firasanslightitalic.woff") format("woff"), url("../fonts/firasanslightitalic/firasanslightitalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "firasansregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/firasansregular/firasansregular.eot?#iefix") format("embedded-opentype"), url("../fonts/firasansregular/firasansregular.woff") format("woff"), url("../fonts/firasansregular/firasansregular.ttf") format("truetype"); }
+@font-face {
+  font-family: "malahit";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/malahit/malahit.eot?#iefix") format("embedded-opentype"), url("../fonts/malahit/malahit.woff") format("woff"), url("../fonts/malahit/malahit.ttf") format("truetype"); }
+@font-face {
+  font-family: "rouble";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/rouble/rouble.eot?#iefix") format("embedded-opentype"), url("../fonts/rouble/rouble.woff") format("woff"), url("../fonts/rouble/rouble.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

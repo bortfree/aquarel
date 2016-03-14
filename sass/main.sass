@@ -1,0 +1,110 @@
+@import "bourbon/bourbon"
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "firasansregular", sans-serif
+	font-weight: normal
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	color: #006188
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+h1
+	color: #0699d3
+	font-size: 60px
+	font-family: "firasansbold", sans-serif
+	font-weight: normal
+
+.hidden
+	display: none
+
+.head
+	background-image: url(../img/bg_header.jpg)
+	min-height: 652px
+	background-position: center
+	background-size: cover
+	position: relative
+
+.top_line
+	padding-top: 20px
+
+.logo
+	display: inline-block
+	position: relative
+	float: left
+	&__title
+		position: absolute
+		top: -10px
+		left: 55px
+		color: #0196d1
+		font-family: "Malahit", sans-serif
+		font-size: 40px
+
+.line
+	width: 92%
+	height: 8px
+	float: right
+	background-image: url(../img/line_top.png)
+	background-repeat: repeat-x
+
+.top_contact
+	display: inline-block
+	float: right
+	text-align: right
+	span
+		display: block
+		font-family: "firasanslightitalic", sans-serif
+		font-size: 14px
+		&:last-child
+			font-family: "firasansbold", sans-serif
+			font-size: 28px
+			line-height: 37px
+
+.button_top
+	float: right
+	color: #d27200
+	font-family: "firasanslight", sans-serif
+	font-size: 14px
+	text-decoration: underline
+	text-transform: uppercase
+	margin-top: 5px
+
+.logo_descr
+	float: left
+	p
+		margin: 7px 0
+		font-family: "firasanslight", sans-serif
+		font-size: 12px
