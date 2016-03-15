@@ -1,5 +1,11 @@
 $(function() {
 
+	$('.slide').magnificPopup({
+          type: 'image',
+          removalDelay: 300,
+					mainClass: 'mfp-fade'
+        });
+
 	$(".slider").owlCarousel({
 		items: 3,
 		loop: true,
