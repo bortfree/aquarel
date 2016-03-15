@@ -1,17 +1,34 @@
 $(function() {
 
 	$('.slide').magnificPopup({
-          type: 'image',
-          removalDelay: 300,
-					mainClass: 'mfp-fade'
-        });
+		type: 'image',
+		removalDelay: 300,
+		mainClass: 'mfp-fade'
+	});
 
 	$(".slider").owlCarousel({
 		items: 3,
 		loop: true,
-		nav: true,
-		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
-	});
+		responsive : {
+    // breakpoint from 0 up
+    0 : {
+    	items: 1,
+    },
+    // breakpoint from 480 up
+    480 : {
+    	items: 1
+    },
+    // breakpoint from 768 up
+    768 : {
+    	items: 2
+    },
+    1200 : {
+    	items: 3
+    }
+  },
+  nav: true,
+  navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+});
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
