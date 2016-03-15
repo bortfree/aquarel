@@ -1,5 +1,9 @@
 $(function() {
 
+	$(".but_scroll").mPageScroll2id();
+
+	$('.popup').magnificPopup();
+
 	$('.slide').magnificPopup({
 		type: 'image',
 		removalDelay: 300,
@@ -46,7 +50,12 @@ $(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			$.magnificPopup.open({
+        items: {
+          src: '.done'
+        },
+        type: 'inline'
+      });
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
